@@ -25,3 +25,9 @@ A YGO Deck Builder App which allows the user to visualize and design strategies 
 
 * **Docker**: For containerizing the application, making it easier to deploy and scale.
 * **CI/CD Pipelines (***Github Actions or CircleCI***)**: To automate testing and deployment processes.
+
+
+
+## To-Do
+
+* **Caching API Responses**: To improve performance, we can cache the API responses to avoid hitting the YGOPRODeck API too often by implementing a simple caching mechanism using an in-memory store like Redis or by storing responses temporarily in your backend.

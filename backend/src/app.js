@@ -10,6 +10,9 @@ app.use(express.json());
 
 // Routes
 const deckRoutes = require('./routes/deckRoutes');
+const cardRoutes = require('./routes/cardRoutes');
+
 app.use('/api', deckRoutes);
+app.use('/api', cardRoutes);
 
 module.exports = app;
